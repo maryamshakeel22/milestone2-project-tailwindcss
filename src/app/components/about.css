@@ -1,0 +1,107 @@
+.about-section {
+    background-color: #475569; /* Slate color */
+    padding: 80px 20px; /* Adjust padding for smaller screens */
+    text-align: center;
+}
+
+.about-container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #1e293b; /* Dark slate */
+    font-weight: 600;
+    margin-bottom: 20px;
+    transition: text-transform 0.3s ease;
+}
+
+.section-title:hover {
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 1.75rem;
+    color: #fbbf24; /* Yellow */
+    margin-top: 2rem;
+    font-weight: 600;
+    transition: text-transform 0.3s ease;
+}
+
+.subtitle:hover {
+    text-transform: uppercase;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    align-items: center;
+    margin-top: 40px; /* Adjust margin for smaller screens */
+}
+
+@media (min-width: 1024px) {
+    .about-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.about-text {
+    font-size: 1rem;
+    color: #d8b4fe; /* Light purple */
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-image {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 1.5rem; /* Smaller font size on smaller screens */
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+
+    .about-text {
+        font-size: 0.9rem; /* Smaller font size */
+        max-width: 90%; /* Allow more text width */
+    }
+
+    .about-image {
+        max-width: 80%; /* Make the image smaller on mobile */
+    }
+
+    .about-content {
+        margin-top: 20px;
+    }
+}
+
+/* Additional fine-tuning for mobile screens */
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.2rem;
+    }
+
+    .subtitle {
+        font-size: 1.3rem;
+    }
+
+    .about-text {
+        font-size: 0.85rem; /* Even smaller text */
+    }
+
+    .about-image {
+        max-width: 90%; /* Further reduce image size */
+}
+}

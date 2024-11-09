@@ -1,0 +1,140 @@
+.contact-section {
+    background-color: #718096; /* bg-slate-500 */
+  }
+  
+  /* Section styling */
+  .contact-content {
+    color: #1a202c; /* text-gray-900 */
+    padding: 6rem 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+  }
+  
+  .title-container {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .contact-title {
+    font-size: 2.5rem; /* sm:text-3xl */
+    font-weight: 500;
+    color: #2d3748; /* text-gray-800 */
+  }
+  
+  .contact-description {
+    max-width: 66.67%;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #4a5568; /* text-base */
+    line-height: 1.5;
+  }
+  
+  /* Form container */
+  .form-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .form-fields {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -0.5rem;
+  }
+  
+  .form-field {
+    padding: 0.5rem;
+    width: 100%;
+  }
+  
+  /* Input and Textarea styles */
+  .label {
+    font-size: 1rem;
+    color: #1a202c;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input,
+  .textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    border: 1px solid #cbd5e0; /* border-gray-300 */
+    background-color: #edf2f7; /* bg-gray-100 */
+    transition: border-color 0.2s, background-color 0.2s;
+  }
+  
+  .input:focus,
+  .textarea:focus {
+    border-color: #4c51bf; /* focus:border-gray-500 */
+    background-color: #fff; /* focus:bg-white */
+    outline: none;
+    /* ring: 2px solid #edf2f7; focus:ring-indigo-200 */
+  }
+  
+  .textarea {
+    height: 8rem;
+    resize: none;
+  }
+  
+  /* Submit button */
+  .submit-btn {
+    background-color: #2d3748; /* bg-slate-900 */
+    color: #fff;
+    padding: 0.75rem 2rem;
+    font-size: 1.125rem;
+    border-radius: 0.375rem;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #cbd5e0; /* hover:bg-slate-400 */
+    text-transform: uppercase;
+  }
+  
+  /* Contact info */
+  .contact-info {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    border-top: 1px solid #e2e8f0; /* border-t border-gray-200 */
+  }
+  
+  .email-link {
+    color: #2d3748; /* text-slate-900 */
+    text-decoration: none;
+  }
+  
+  .address {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  .social-links {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 1rem;
+    color: #2d3748;
+  }
+  
+  .social-icon:hover {
+    color: #4c51bf; /* hover:text-indigo-500 */
+  }
+  
+  /* LinkedIn and GitHub Icons */
+  .linkedin-icon svg,
+  .github-icon svg {
+    fill: currentColor;
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  

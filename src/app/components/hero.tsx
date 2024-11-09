@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image'
 import Asserts from '@/app/asserts/hero.jpg'
 import Typewriter from 'typewriter-effect'
-import './Hero.css';
+import './hero.css';
 
 const Hero = () => {
   return (
